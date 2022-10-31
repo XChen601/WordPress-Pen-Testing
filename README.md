@@ -1,6 +1,6 @@
 # Project 7 - WordPress Pen Testing
 
-Time spent: **X** hours spent in total
+Time spent: **5** hours spent in total
 
 > Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
 
@@ -21,16 +21,19 @@ Time spent: **X** hours spent in total
 - [x] Affected source code:
   - [Link 1](https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8)
   
-### 2. (Required) Vulnerability Name or ID
+### 2. (Required) Authenticated Shortcode Tags Cross-Site Scripting (XSS)
 
-- [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
-  - Fixed in version: 
-- [ ] GIF Walkthrough: 
-- [ ] Steps to recreate: 
-- [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+- [x] Summary: 
+  - Vulnerability types: XSS
+  - Tested in version:4.2
+  - Fixed in version: 4.2.5
+- [x] GIF Walkthrough: 
+![](https://github.com/XChen601/WordPress-Pen-Testing/blob/main/shortcodeXSS.gif)
+- [X] Steps to recreate: 
+  1. Create post
+  2. Create script using shortcode
+- [X] Affected source code:
+  - [Link 1](https://core.trac.wordpress.org/changeset/33549)
 
 ### 3. (Required) Vulnerability Name or ID
 
@@ -43,27 +46,6 @@ Time spent: **X** hours spent in total
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 
-### 4. (Optional) Vulnerability Name or ID
-
-- [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
-  - Fixed in version: 
-- [ ] GIF Walkthrough: 
-- [ ] Steps to recreate: 
-- [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-
-### 5. (Optional) Vulnerability Name or ID
-
-- [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
-  - Fixed in version: 
-- [ ] GIF Walkthrough: 
-- [ ] Steps to recreate: 
-- [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
 
 ## Assets
 
@@ -84,9 +66,11 @@ GIFs created with  ...
 
 Describe any challenges encountered while doing the work
 
+- Finding documented vulnerabilities with instructions on how it works
+
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2022] [Xing Chen]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
