@@ -12,7 +12,8 @@ Time spent: **X** hours spent in total
   - Vulnerability types: Cross-Site Scripting
   - Tested in version: 4.2
   - Fixed in version: 4.2.13
-- [x] GIF Walkthrough: 
+- [x] GIF Walkthrough:
+https://github.com/XChen601/WordPress-Pen-Testing/blob/main/youtubeEmbedHack.gif
 - [x] Steps to recreate: 
   1. Create post
   2. create youtube embed link
